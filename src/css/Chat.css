@@ -97,6 +97,8 @@
 }
 .file-upload {
   margin-top: 10px; /* Provide spacing between the clear button and the file input */
+  display: flex; /* Use flexbox to arrange items */
+  align-items: center; /* Align items vertically in the center */
 }
 
 input[type="file"] {
@@ -110,3 +112,27 @@ input[type="file"] {
   box-sizing: border-box; /* Ensures the padding and border are included in the width */
 }
   
+.upload-pdf-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px; /* Adjust margin to align properly with the upload button */
+  flex: 1; /* Occupy 25% of the available space */
+
+}
+
+.upload-pdf-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.file-input {
+  flex: 2; /* Occupy half of the available space */
+  margin-right: 10px; /* Add space between elements */
+}
+
